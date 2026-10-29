@@ -1,0 +1,6 @@
+# Every value can be overridden on the command line:
+#   cargo run -- --message "Different text" --image C:/other.png
+target = "127.0.0.1" # "host", "host:port", or "ws://host:port" (default port 9001).
+title = "Hey Syd!"
+message = "No rush, but I wanna say something, so LMK :)"
+image = "./lightbulb.png"
